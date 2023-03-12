@@ -1,0 +1,131 @@
+.teacher-home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-heading {
+  color: #f3aa4e;
+  font-family: Roboto;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.input {
+  background-color: #ffffff;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  border: solid 1px #475569;
+  height: 42px;
+  width: 320px;
+  margin-top: 10px;
+}
+
+.add-btn {
+  color: #ffffff;
+  background-color: #f3aa4e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #f3aa4e;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  height: 38px;
+  font-weight: 400;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.error-msg {
+  color: #d9292b;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.master-nav {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-home {
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  background-color: #f3aa4e;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-bottom: 10px;
+}
+
+.nav-heading {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+  font-family: Cursive;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.logout-bth {
+  color: #f3aa4e;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  width: 100px;
+  height: 38px;
+}
+
+.link-names {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.para-student-note {
+  font-family: roboto;
+  color: #131213;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.note-span {
+  font-size: 18px;
+}

@@ -1,0 +1,19 @@
+.student-container {
+  padding-bottom: 40px;
+}
+
+.container-student-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para-un {
+  display: none;
+}
+
+.ordered-list {
+  font-family: roboto;
+  color: #1a171d;
+}

@@ -6,6 +6,7 @@ import StudentSign from './components/StudentSign'
 import TeacherSign from './components/TeacherSign'
 import TeacherHome from './components/TeacherHome'
 import StudentHome from './components/StudentHome'
+import Solutions from './components/Solutions'
 import NotFound from './components/NotFound'
 
 import './App.css'
@@ -39,10 +40,11 @@ const App = () => {
       <Route exact path="/" component={LoginPage} />
       <Route exact path="/student/login" component={StudentLogin} />
       <Route exact path="/student/sign-up" component={StudentSign} />
-      <Route exact path="/teacher/login" component={TeacherLogin} />
-      <Route exact path="/teacher/sign-up" component={TeacherSign} />
-      <Route exact path="/teacher/home" component={TeacherHome} />
+      <Route exact path="/master/login" component={TeacherLogin} />
+      <Route exact path="/master/sign-up" component={TeacherSign} />
+      <Route exact path="/master/home" component={TeacherHome} />
       <Route exact path="/student/home" component={StudentHome} />
+      <Route exact path="/solutions" component={Solutions} />
       <Route component={NotFound} />
     </Switch>
   )

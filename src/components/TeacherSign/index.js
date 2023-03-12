@@ -37,7 +37,7 @@ class TeacherSign extends Component {
       localStorage.setItem('teacher_details', JSON.stringify(teacherDetails))
       this.setState({username: '', password: '', isError: false})
       passwordInput.value = ''
-      history.replace('/teacher/login')
+      history.replace('/master/login')
     }
   }
 
@@ -99,7 +99,7 @@ class TeacherSign extends Component {
           </button>
           {isError && <p className="err">{errMsg}</p>}
           <p>
-            Already a User ?<Link to="/teacher/login">Login</Link>
+            Already a User ?<Link to="/master/login">Login</Link>
           </p>
         </form>
       </div>

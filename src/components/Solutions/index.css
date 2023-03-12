@@ -1,0 +1,40 @@
+.para {
+  font-family: roboto;
+  color: #1a171d;
+}
+
+.ordered-list-sol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #1a171d;
+  font-family: roboto;
+}
+
+.sol-heading {
+  color: #f3aa4e;
+  text-align: center;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 34px;
+}
+
+.order {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.span-sol {
+  font-weight: bold;
+  color: #f3aa4e;
+  font-family: roboto;
+}
+
+.activity-assigned {
+  text-align: center;
+  margin-top: 15%;
+  font-weight: bold;
+  color: #f3aa4e;
+  font-family: roboto;
+  font-size: 30px;
+}

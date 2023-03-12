@@ -55,7 +55,7 @@ class TeacherLogin extends Component {
           JSON.stringify(currentUser[0]),
         )
         const {history} = this.props
-        history.replace('/teacher/home')
+        history.replace('/master/home')
       } else {
         this.setState({
           isError: true,
@@ -115,7 +115,7 @@ class TeacherLogin extends Component {
             {isError && <p className="err">{errMsg}</p>}
           </form>
           <p>
-            New Here ? <Link to="/teacher/sign-up">SIGN UP</Link>
+            New Here ? <Link to="/master/sign-up">SIGN UP</Link>
           </p>
         </div>
       </div>
